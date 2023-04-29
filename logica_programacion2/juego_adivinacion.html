@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function saltarlinea(){
+            document.write("<br>");
+        }
+        function imprimir(texto){
+            document.write(texto);
+        }
+        var numeroPensado = parseInt(prompt("ingrese un numero entre 0-10"));
+        if (numeroPensado == numeroLanzado){
+            imprimir("usted acerto")
+        }else{
+            imprimir ("usted se equivoco, el numero pensado es "+ numeroPensado);
+        }
+
+        /*var numeroPensado = Math.round(Math.random()*10);
+        var numeroLanzado = parseInt(prompt("ingrese un numero entre 0-10"));
+
+        if (numeroPensado == numeroLanzado ){
+            imprimir("usted acerco");
+        }
+        if (numeroPensado != numeroLanzado){
+            imprimir("no acerto, el numero pensado era " + numeroPensado);
+        }*/
+    </script>
+</body>
+</html>
