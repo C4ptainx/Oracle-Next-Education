@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+}
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+/*---------------------navegacion---------------------*/
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+nav a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #17202A;
+}
+/*---------------------Content---------------------*/
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form .padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+button{
+    display: block;
+    border-radius: 8px;
+    margin: 0 0 20px;
+    padding: 0 30px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+td{
+    border: solid 1px #17202A;
+}
+/*---------------------Footer---------------------*/
+
+footer{
+    text-align: center;
+    padding: 40px;
+    background-image: url(./productos/bg.jpg);
+}
+
+.copyright{
+    color: #ffff;
+    margin: 20px;
+    font-size: 13px;
+}
+
+/*---------------------Hover---------------------*/
+
+a:hover{
+    color: #c78c19;
+    text-decoration:underline;
+}
+button:hover{
+    color: white;
+    background-color: #c78c19;
+
+}
