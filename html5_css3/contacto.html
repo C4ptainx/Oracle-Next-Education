@@ -27,36 +27,61 @@
         <form action="" method="post" class="formulario">
             
             <label for="">Nombre y Apellido</label>
-            <input type="text" class="padron">
+            <input type="text" class="padron" required>
             
             <label for="">Correo electronico</label>
-            <input type="email" value="example@gmail.com" class="padron">
+            <input type="email" value="" class="padron" required placeholder="example@gmail.com">
             
             <label for="">Telefono</label>
-            <input type="tel" value="(xx)-xxxx-xxxx" class="padron">
+            <input type="tel" value="" class="padron" required placeholder="(xx)-xxxx-xxxx">
             
             <label for="">Mensaje</label>
             <textarea name="" id="" cols="70" rows="10" class="padron"></textarea>
             
-            <div>
+            <fieldset>
                 <p>¿Como le gustaria que lo contactemos?</p>
                 <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">
                     Email</label>
                 <label for="radio-telefono"><input type="radio" name="contacto" value="Telefono" id="radio-telefono">
                     Telfono</label>
-                <label for="radio-whatsapp"><input type="radio" name="contacto" value="WhatsApp" id="radio-whatsapp">
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="WhatsApp" id="radio-whatsapp" checked>
                     WhatsApp</label>
-            </div>
-            
-           <label for="" class="checkbox"><input type="checkbox"> Le gustaria recibir novedades de la barbaeria alura</label>
+            </fieldset>
+           <fieldset>
+            <p>En cual horario prefieres ser atendido</p>
+            <select name="" id="">
+                <option value="">Mañana</option>
+                <option value="">Tarde</option>
+                <option value="">Noche</option>
+            </select>
+           </fieldset>
+
+           <label for="" class="checkbox"><input type="checkbox" checked> Le gustaria recibir novedades de la barbaeria alura</label>
 
             <button type="submit">Enviar</button>
             
-            <td>
-                <tr>dia</tr>
-                <tr>horario</tr>
-                
-            </td>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Miercoles</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                </tbody>
+            </table>
         </form>
 
     </main>
